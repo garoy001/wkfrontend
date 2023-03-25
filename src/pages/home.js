@@ -23,8 +23,8 @@ export const Home = () => {
 						<button
 							className="navbar-toggler"
 							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#navbarCollapse"
+							data-toggle="collapse"
+							data-target="#navbarCollapse"
 							aria-controls="navbarCollapse"
 							aria-expanded="false"
 							aria-label="Toggle navigation"
@@ -32,7 +32,7 @@ export const Home = () => {
 							<span className="navbar-toggler-icon"></span>
 						</button>
 						<div
-							className="collapse navbar-collapse float-right"
+							className="collapse navbar-collapse "
 							id="navbarCollapse"
 							style={{ justifyContent: 'flex-end' }}
 						>
